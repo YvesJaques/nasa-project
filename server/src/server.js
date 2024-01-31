@@ -27,7 +27,6 @@ async function startServer() {
 
     server.listen(PORT, () => {
         console.log(`Server is running on http://localhost:${PORT}`)
-        console.log(`MONGO=`,MONGO_URL)
     })
 }
 
